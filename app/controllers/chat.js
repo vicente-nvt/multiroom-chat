@@ -9,7 +9,7 @@ class ChatController {
         var erros = req.validationErrors();
 
         if (erros){
-            res.render("index", {erros: erros});
+            res.render("index", {validacao: erros});
             return;
         }
 

@@ -1,6 +1,6 @@
 class HomeController {
     getHomePage(req, res){
-        res.render("index", {erros:{}});
+        res.render("index", {validacao:{}});
     }
 }
 
