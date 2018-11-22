@@ -4,7 +4,8 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "ejslint": "ejslint *.ejs"
   },
   "repository": {
     "type": "git",
@@ -22,5 +23,6 @@
     "ejs": "^2.6.1",
     "express": "^4.16.4",
     "express-validator": "^5.3.0"
-  }
+  },
+  "devDependencies": {}
 }
